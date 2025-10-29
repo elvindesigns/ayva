@@ -34045,7 +34045,7 @@
 :root {
     --black: #000;
     --white: #fff;
-    --theme: #569fff;
+    --theme: rgb(0 51 171);
     --theme-2: #905efb;
     --text: #5e5f63;
     --dark: #222222;
@@ -35006,7 +35006,7 @@ h5.preloader-text::after {
 .theme-btn-with-bg {
     border: 1px solid var(--theme);
     background-color: var(--theme);
-    color: var(--black);
+    color: var(--white);
 }
 .theme-btn-with-bg:not(.btn_moveing_hover):hover {
     background-color: rgba(0, 0, 0, 0);
@@ -35176,13 +35176,13 @@ h5.preloader-text::after {
     -ms-flex-pack: start;
     justify-content: start;
 }
-.sub-title::after,
+/* .sub-title::after,
 .sub-title-arrows::after {
     content: "";
     font-family: "ashik-icon" !important;
     margin-left: 15px;
     font-size: 15px;
-}
+} */
 @media (max-width: 767px) {
     .sub-title::after,
     .sub-title-arrows::after {
@@ -36117,6 +36117,12 @@ header.sticky {
     .dot-shap {
         left: unset;
         right: 0;
+    }
+}
+@media (max-width: 768px) {
+    #headNav {
+        display: flex;
+        justify-content: center !important;
     }
 }
 .about-right-tab-content {
