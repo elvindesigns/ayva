@@ -34945,7 +34945,7 @@ h5.preloader-text::after {
     transition: all linear 0.3s;
     -webkit-animation: scroll_amini linear 2s infinite alternate;
     animation: scroll_amini linear 2s infinite alternate;
-    color: var(--black);
+    color: var(--white);
 }
 .home-2 .tf__scroll_btn {
     background-color: var(--theme-2);
@@ -34997,7 +34997,7 @@ h5.preloader-text::after {
     border: 1px solid var(--dark);
 }
 .dark-bg .theme-btn:hover {
-    color: var(--black);
+    color: var(--white);
 }
 .theme-btn:not(.btn_moveing_hover):hover {
     background-color: var(--theme);
@@ -35011,7 +35011,7 @@ h5.preloader-text::after {
 .theme-btn-with-bg:not(.btn_moveing_hover):hover {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid rgb(from var(--black) r g b/20%);
-    color: var(--dark);
+    color: var(--white);
 }
 .theme-btn-with-bg.theme-2-bg {
     border: 1px solid var(--theme-2);
@@ -35201,12 +35201,12 @@ h5.preloader-text::after {
     -ms-flex-pack: center;
     justify-content: center;
 }
-.sub-title-arrows::before {
+/* .sub-title-arrows::before {
     content: "";
     font-family: "ashik-icon" !important;
     margin-right: 15px;
     font-size: 15px;
-}
+} */
 @media (max-width: 767px) {
     .sub-title-arrows::before {
         font-size: 12px;
@@ -35373,6 +35373,10 @@ header.sticky {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 14px;
     -webkit-animation: slideDown 0.5s ease-in-out forwards;
     animation: slideDown 0.5s ease-in-out forwards;
+}
+
+header.sticky .logo img{
+    width: 120px !important;
 }
 .dark-bg header.sticky {
     background-color: var(--dark-4);
