@@ -35151,10 +35151,11 @@ h5.preloader-text::after {
 .sub-title-2-arrows,
 .sub-title,
 .sub-title-arrows {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 35px;
     text-transform: uppercase;
     font-weight: 700;
+    /* color: #555; */
 }
 @media (max-width: 767px) {
     .sub-title-2,
